@@ -1,7 +1,7 @@
 # Installation steps used to generate this example app
 
 ```bash
-npx react-native@0.64.2 init WalletSDKDemo
+npx react-native init WalletSDKDemo
 yarn add patch-package
 yarn add rn-nodeify
 yarn add jetifier 
