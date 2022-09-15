@@ -42,6 +42,14 @@ AppRegistry.registerComponent(appName, () => App);
 
 ```
 
+Copy patches folder from this repo, this is required on react-native 0.70
+
+```bash
+# after copying make sure you execute the postinstall script again
+yarn postinstall
+```
+
+
 Disable hermes on android (for react-native 0.70)
 
 ```
